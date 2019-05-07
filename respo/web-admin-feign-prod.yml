@@ -8,6 +8,10 @@ spring:
     servlet:
       content-type: text/html
 
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
 server:
   port: 8766
 
